@@ -6,6 +6,18 @@
     position: relative;
     transition: opacity 0.3s ease;
 }
+.Contactuscon{
+    text-align: center;
+    margin: 5rem;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.Contactuscon button{
+    width: 30vw;
+    margin: 10px 0 20px 0;
+}
+.Contactuscon h2{
+    padding-top: 20px;
+}
 
 #underline {
     position: absolute;
@@ -265,13 +277,21 @@ h1 {
     background-color: #e8e8e8;
 }
 
-footer .container h1{
+.container-fluid .container h1{
     color: #b9c1d9;
 }
-footer .container p{
+.container-fluid .container p{
     color: #fbe8ff;
 }
-    
+
+footer{
+    text-align: center;
+    background-color: #343a40;
+}
+footer span{
+    font-size: 20px;
+    color: #71e9e1;
+}
 
 /* For screens smaller than 576px (extra small devices) */
 @media (max-width: 575.98px) {
