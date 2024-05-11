@@ -1,4 +1,5 @@
 *{
+    font-size: 13px;
     scroll-behavior: smooth !important;
 }
 .navbar {
@@ -61,7 +62,7 @@ p {
   font-family: 'Bebas Neue', cursive;
   font-size: 3em;
   position: absolute;
-  top: 110%;
+  top: 109%;
   left: 50%;
   transform: translate(-50%,-50%);
   background-image: linear-gradient(gold, gold);
