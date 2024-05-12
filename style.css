@@ -45,10 +45,10 @@
 }
 
 .bg-image {
-    background-image: url("https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* Replace 'background-image.jpg' with the path to your image */
+    background-image: url("https://mfs.ezvizlife.com/6d0ac9f3606d349ba8855207993539ec.jpg?ver=9884955528"); /* Replace 'background-image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 50vh;
     overflow: hidden;
 }
 .content {
@@ -62,7 +62,7 @@ h1 {
     font-size: 48px;
 }
 p {
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
