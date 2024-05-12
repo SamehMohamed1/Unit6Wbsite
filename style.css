@@ -73,15 +73,35 @@ p {
 .Products {
   font-family: 'Bebas Neue', cursive;
   font-size: 3em;
-  position: absolute;
+  /* position: absolute;
   top: 109%;
-  left: 50%;
+  left: 50%; */
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(gold,gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+.FaQs-title{
+  display: inline-block;
+  margin-left: 50%;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
   transform: translate(-50%,-50%);
   background-image: linear-gradient(gold, gold);
   background-size: 100% 10px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
    transition: background-size .7s, background-position .5s ease-in-out;
+}
+.FaQs-title:hover{
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
 }
 
 .Products:hover {
@@ -157,9 +177,7 @@ h1 {
   );
   position: relative;
 }
-.FaQs{
-    margin-top: 10%;
-}
+
 .olcards li .content::before {
   content: "";
   position: absolute;
